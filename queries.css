@@ -1,0 +1,21 @@
+@media (max-width: 375px) {
+  .wrapper {
+    padding: 0 2.4rem;
+    background: url('./images/pattern-background-mobile.svg'), var(--pale-blue);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .plan-box,
+  .button-box {
+    width: 85%;
+  }
+
+  .description {
+    margin-bottom: 2.4rem;
+  }
+
+  .btn--payment:link {
+    padding: 1.8rem 0;
+  }
+}
