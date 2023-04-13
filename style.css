@@ -84,7 +84,7 @@ body {
   background-color: var(--very-pale-blue);
 }
 
-.plan {
+.plan-info {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -103,7 +103,7 @@ body {
   color: var(--desaturated-blue);
 }
 
-.change-box {
+.plan-change-box {
   display: flex;
   justify-content: center;
   align-items: center;
