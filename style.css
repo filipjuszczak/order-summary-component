@@ -7,16 +7,15 @@
 }
 
 :root {
-  --pale-blue: hsl(225, 100%, 94%);
-  --bright-blue: hsl(245, 75%, 52%);
-  --very-pale-blue: hsl(225, 100%, 98%);
-  --desaturated-blue: hsl(224, 23%, 55%);
-  --white: hsl(0, 0%, 100%);
-  --dark-blue: hsl(223, 47%, 23%);
+  --pale-blue: hsl(225 100% 94%);
+  --bright-blue: hsl(245 75% 52%);
+  --very-pale-blue: hsl(225 100% 98%);
+  --desaturated-blue: hsl(224 23% 55%);
+  --white: hsl(0 0% 100%);
+  --dark-blue: hsl(223 47% 23%);
   --font-weight-normal: 500;
   --font-weight-medium: 700;
   --font-weight-bold: 900;
-  font-size: 62.5%;
 }
 
 body {
@@ -36,14 +35,14 @@ body {
 }
 
 .card {
-  max-width: 45rem;
+  max-width: 28.125rem;
   border-radius: 13px;
-  box-shadow: 0 18px 25px hsla(245, 75%, 52%, 0.1);
+  box-shadow: 0 18px 25px hsla(245 75% 52% / 0.1);
   background-color: var(--white);
 }
 
 .hero-img-box {
-  margin-bottom: 4rem;
+  margin-bottom: 2.5rem;
 }
 
 .hero-img {
@@ -53,12 +52,12 @@ body {
 }
 
 .text-box {
-  margin-bottom: 3.2rem;
+  margin-bottom: 2rem;
 }
 
 .title {
-  margin-bottom: 2rem;
-  font-size: 2.4rem;
+  margin-bottom: 1.25rem;
+  font-size: 1.5rem;
   font-weight: var(--font-weight-bold);
   text-align: center;
   color: var(--dark-blue);
@@ -66,8 +65,8 @@ body {
 
 .description {
   width: 80%;
-  margin: 0 auto 1.6rem auto;
-  font-size: 1.6rem;
+  margin: 0 auto 1rem auto;
+  font-size: 1rem;
   text-align: center;
   line-height: 1.7;
   color: var(--desaturated-blue);
@@ -78,8 +77,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 auto 2.4rem auto;
-  padding: 1.8rem;
+  margin: 0 auto 1.5rem auto;
+  padding: 1.125rem;
   border-radius: 9px;
   background-color: var(--very-pale-blue);
 }
@@ -88,18 +87,18 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
+  gap: 1.25rem;
 }
 
 .plan-title {
-  margin-bottom: 1rem;
-  font-size: 1.4rem;
+  margin-bottom: 0.625rem;
+  font-size: 0.875rem;
   font-weight: var(--font-weight-medium);
   color: var(--dark-blue);
 }
 
 .plan-price {
-  font-size: 1.4rem;
+  font-size: 0.875rem;
   color: var(--desaturated-blue);
 }
 
@@ -111,7 +110,7 @@ body {
 
 .change-plan:link,
 .change-plan:visited {
-  font-size: 1.4rem;
+  font-size: 0.875rem;
   font-weight: var(--font-weight-medium);
   color: var(--bright-blue);
 }
@@ -130,14 +129,14 @@ body {
 .btn--payment:link,
 .btn--payment:visited {
   display: block;
-  margin-bottom: 3.2rem;
-  padding: 1.8rem 6.4rem;
-  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  padding: 1.125rem 4rem;
+  font-size: 0.9375rem;
   font-weight: var(--font-weight-medium);
   border-radius: 11px;
   text-align: center;
   text-decoration: none;
-  box-shadow: 0 15px 25px hsla(245, 75%, 52%, 0.3);
+  box-shadow: 0 15px 25px hsl(245 75% 52% / 0.3);
   color: var(--white);
   background-color: var(--bright-blue);
 }
@@ -148,7 +147,7 @@ body {
 
 .btn--cancel:link,
 .btn--cancel:visited {
-  font-size: 1.5rem;
+  font-size: 0.9375rem;
   font-weight: var(--font-weight-bold);
   text-decoration: none;
   color: var(--desaturated-blue);
